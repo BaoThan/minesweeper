@@ -6,7 +6,7 @@ import GameOver from "./GameOver";
 import Faces from "./Faces";
 
 const levelOptions = [
-  { value: { boardSize: 10, bombCount: 1 }, label: "EASY" },
+  { value: { boardSize: 10, bombCount: 10 }, label: "EASY" },
   { value: { boardSize: 15, bombCount: 40 }, label: "MEDIUM" },
   { value: { boardSize: 20, bombCount: 100 }, label: "HARD" },
 ];
