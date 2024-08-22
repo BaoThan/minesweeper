@@ -24,7 +24,7 @@ body {
 
 .cell:hover {
   cursor: pointer;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 .gameOver {
@@ -41,6 +41,8 @@ body {
   background-color: #24659a;
   display: flex;
   padding: 10px;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .resetButton {
@@ -49,13 +51,9 @@ body {
   border: none;
 }
 
-.resetButton:hover {
-  cursor: wait;
-}
-
 .dropdown-select {
   padding: 10px;
-  font-size: 16px;
+  font-size: 26px;
   border: none;
   background-color: #24659a;
   color: rgb(255, 255, 255);
@@ -81,3 +79,4 @@ body {
 .dropdown-option:hover {
   background-color: #1c4a75;
 }
+
